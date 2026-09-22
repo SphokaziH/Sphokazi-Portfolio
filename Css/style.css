@@ -762,205 +762,74 @@ nav {
 /* Mobile Menu */
 
 .menu-toggle {
-
     display:none;
-
-    font-size:32px;
-
-    cursor:pointer;
-
 }
 
 
 @media(max-width:768px){
 
+    section {
 
-    header {
-
-        display:flex;
-
-        justify-content:space-between;
-
-        align-items:center;
-
-        padding:20px 25px;
+        padding:50px 25px;
 
     }
 
 
-    .menu-toggle {
-
-        display:block;
-
-    }
-
-
-    nav {
-
-        position:absolute;
-
-        top:80px;
-
-        left:0;
-
-        width:100%;
-
-    }
-
-
-    .nav-links {
-
-        display:none;
+    .hero-container,
+    .about-container,
+    .studio-container,
+    .experience-container {
 
         flex-direction:column;
 
-        background:white;
+    }
+
+
+    .hero-text,
+    .hero-image,
+    .about-left,
+    .about-right,
+    .studio-left,
+    .studio-right,
+    .experience-background,
+    .experience-highlights {
 
         width:100%;
 
-        padding:20px;
+    }
 
-        gap:20px;
 
-        text-align:center;
+    .project-container {
+
+        grid-template-columns:1fr;
 
     }
 
 
-    .nav-links.active {
+    .contact-container {
 
-        display:flex;
+        flex-direction:column;
 
     }
-
-}
-
-section {
-
-    padding:50px 25px;
-
-}
-
-
-
-.hero-container,
-.about-container,
-.studio-container,
-.experience-container {
-
-    flex-direction:column;
-
-}
-
-
-
-.hero-text,
-.hero-image,
-.about-left,
-.about-right,
-.studio-left,
-.studio-right,
-.experience-background,
-.experience-highlights {
-
-    width:100%;
-
-}
-
-
-
-.project-container {
-
-    grid-template-columns:1fr;
-
-}
-
-
-
-.contact-container {
-
-    flex-direction:column;
 
 }
 
 
 /* Footer */
 
-footer {
 
-    background-color:var(--text);
-
-    color:white;
-
-    text-align:center;
-
-    padding:40px 20px;
-
-}
-
-
-footer h3 {
-
-    font-size:28px;
-
-    margin-bottom:15px;
-
-}
-
-
-footer p {
-
-    margin-bottom:20px;
-
-}
-
-
-.footer-links {
-
-    display:flex;
-
-    justify-content:center;
-
-    gap:25px;
-
-    margin-bottom:20px;
-
-}
-
-
-.footer-links a {
-
-    color:white;
-
-    text-decoration:none;
-
-    transition:0.3s;
-
-}
-
-
-.footer-links a:hover {
-
-    color:var(--primary);
-
-}
-
-
-.copyright {
-
-    font-size:14px;
-
-    opacity:0.8;
-
-}
-img {
+.project-card img,
+.studio-gallery img,
+.hero-image img {
 
     transition:0.4s;
 
 }
 
 
-img:hover {
+.project-card img:hover,
+.studio-gallery img:hover,
+.hero-image img:hover {
 
     transform:scale(1.05);
 
