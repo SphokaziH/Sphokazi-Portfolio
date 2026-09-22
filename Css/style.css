@@ -42,7 +42,7 @@ body {
     animation:fadeIn 0.8s ease;
     font-family:"Poppins", sans-serif;
     width: 100%;
-    overflow-x: hidden;
+    
 }
 @keyframes fadeIn {
     from{
