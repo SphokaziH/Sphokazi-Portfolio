@@ -1,3 +1,59 @@
 body {
     background-color: #f5f5f5;
 }
+/* Website Sections */
+
+section {
+    min-height: 100vh;
+    padding: 80px 60px;
+}
+section h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+
+section h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+
+section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+#home {
+    background-color: #ffffff;
+}
+
+
+#about {
+    background-color: #f5f5f5;
+}
+
+
+#projects {
+    background-color: #ffffff;
+}
+
+
+#studio {
+    background-color: #f5f5f5;
+}
+
+
+#resume {
+    background-color: #ffffff;
+}
+
+
+#contact {
+    background-color: #f5f5f5;
+}
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+}
