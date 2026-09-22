@@ -28,7 +28,8 @@
 
 
 html {
-
+    width: 100%;
+    overflow-x: hidden;
     scroll-behavior:smooth;
 
 }
@@ -40,7 +41,8 @@ body {
     color:var(--text);
     animation:fadeIn 0.8s ease;
     font-family:"Poppins", sans-serif;
-
+    width: 100%;
+    overflow-x: hidden;
 }
 @keyframes fadeIn {
     from{
@@ -344,13 +346,10 @@ nav {
 
 .pillars {
 
-    display:grid;
-
-    grid-template-columns:repeat(3,1fr);
-
-    gap:25px;
-
-    margin-top:60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 60px;
 
 }
 
@@ -766,11 +765,35 @@ nav {
 }
 
 
-@media(max-width:768px){
+@media(max-width:900px){
 
-    section {
+    header {
 
-        padding:50px 25px;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+
+    }
+
+
+    .menu-toggle {
+
+        display:block;
+
+    }
+
+
+    .nav-links {
+
+        display:none;
+        flex-direction:column;
+
+    }
+
+
+    .nav-links.active {
+
+        display:flex;
 
     }
 
@@ -795,6 +818,13 @@ nav {
     .experience-highlights {
 
         width:100%;
+
+    }
+
+
+    .pillars {
+
+        grid-template-columns:1fr;
 
     }
 
