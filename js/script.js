@@ -105,6 +105,7 @@ if (menuToggle && navMenu) {
 
     });
 
+
     // Close menu after clicking a link
 
     document.querySelectorAll(".nav-links a").forEach(link => {
@@ -117,4 +118,5 @@ if (menuToggle && navMenu) {
 
     });
 
+}
 }
