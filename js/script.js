@@ -119,4 +119,3 @@ if (menuToggle && navMenu) {
     });
 
 }
-}
