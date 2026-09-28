@@ -389,19 +389,24 @@ nav {
 .about-container {
 
     display:flex;
-
     gap:60px;
+    align-items:flex-start;
 
 }
-
 
 
 .about-left {
 
-    width:45%;
+    flex:1;
 
 }
 
+
+.about-right {
+
+    flex:1;
+
+}
 
 
 .about-left img {
@@ -409,14 +414,6 @@ nav {
     width:250px;
 
     border-radius:20px;
-
-}
-
-
-
-.about-right {
-
-    width:55%;
 
 }
 
